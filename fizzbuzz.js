@@ -4,7 +4,7 @@ function fizzbuzz(n) {
     
     if(i % 3 === 0) text = text + "Fizz";
     if(i % 5 === 0) text = text + "Buzz";
-    if(text === "") text = i;
+    if(text === "") text = text + i;
     
     console.log(text);
   }
